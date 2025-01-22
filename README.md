@@ -1019,6 +1019,12 @@ field에 대한 fielddata를 true로 설정해주는 과정을 통해 text 필�
 fielddata는 Elasticsearch에서 text 필드의 값을 메모리에 로드하여 정렬, 집계 또는 스크립트에서 직접 사용할 수 있게 해주는 기능이다.
 
 
+- Elasticsearch는 text 필드에 저장된 데이터(토크나이즈된 형태)를 **역인덱스(inverted index)**로 관리합.
+- text 필드에 저장된 데이터(역인덱스)를 읽음.
+- 메모리에 "정확한 값" 형태로 데이터를 생성(예: 단어 토큰 대신 전체 필드 값).
+- 이 데이터를 Aggregation, Sorting, 또는 스크립트에서 사용.
+
+
 <br>
 
 ## 회고
