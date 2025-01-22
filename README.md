@@ -199,10 +199,8 @@ input {
 원격 데이터베이스를 사용했으며 해당 데이터에 접근하기 위해 이전 프로젝트와 동일한 방식의 포워딩을 설정했다.
 
 
-이 때 데이터베이스에서 정보를 가져와 Elastic Search로 전달하는 과정을 1초 단위로 진행했으며 :sql_last_value를 통해 전체 값을 insert하는 것이 아닌 Elastic Search에 존재하지 않는 데이터에 한해서만 insert 할 수 있도록 진행했다.
+이 때 데이터베이스에서 정보를 가져와 Elastic Search로 전달하는 과정을 5초 단위로 진행했으며 :sql_last_value를 통해 전체 값을 insert하는 것이 아닌 Elastic Search에 존재하지 않는 데이터에 한해서만 insert 할 수 있도록 진행했다.
 
-
-schedule의 경우 빠른 실행 결과를 확인하기 위해 5초 단위로 설정했다.
 
 <br>
 
