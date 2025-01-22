@@ -587,8 +587,9 @@ POST /musinsa/_search
 ```
 <br>
 
-- script_score를 통한 score 차이 개선
+ ### < script_score를 통한 score 차이 개선 >
 
+<br>
 
 위에서 사용한 예시는 function_score 조정을 통한 결과를 확인한 것이다.
 
@@ -798,10 +799,9 @@ GET /musinsa_with_nori/_search
 ```
 
 
-- 결과 화면 비교 및 개선
+### < 결과 화면 비교 및 개선 >
 
-
-
+<br>
 
 기존의 aggregation function을 통한 count를 진행하게 되면 product_name의 전체 value를 기준으로 count 되는 모습을 보여주었다.
 
