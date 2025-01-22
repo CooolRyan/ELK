@@ -298,12 +298,12 @@ filter{
     <img src="https://github.com/user-attachments/assets/69eb93f4-70f8-4a1a-8573-0a09876221b6" alt="Image" style="width:50%;">
 </p>
 
-4. 우수회원
+4. 브랜드별 성별 인기도
 <p align="center">
     <img src="https://github.com/user-attachments/assets/243ff5c7-ea8d-450b-9b1a-4c70020680c2" alt="Image" style="width:50%;">
 </p>
 
-5. 브랜드별 성별 인기도
+5. 우수회원
 <p align="center">
     <img src="https://github.com/user-attachments/assets/cdee7b43-a5fc-4f04-8810-8c6d3237b87b" alt="Image" style="width:50%;">
 </p>
@@ -852,7 +852,7 @@ GET /musinsa_with_nori/_search
 ## 트러블 슈팅🧨
 
 
-### Timezone 세팅 및 새로운 정보 update 문제
+### 1. Timezone 세팅 및 새로운 정보 update 문제
 
 
 기본적으로 Logstash는 UTC 시간대를 표준으로 사용하고 있으며 이로 인해 데이터 삽입 과정에서 KST로 설정된 시간과 9시간 차이나는 값으로 삽입이 이루어진다.
@@ -922,7 +922,7 @@ schedule => "*/5 * * * * *"  # 5초마다 실행
 
 <br>
 
-### DB connection 문제
+### 2. DB connection 문제
 ![image](https://github.com/user-attachments/assets/bb6100ea-93e9-41ac-9090-bd1b89d9e9c3)
 
 
@@ -964,7 +964,7 @@ flush hosts;
 
 <br>
 
-### **문제**
+### 3. 문제
 `text` 필드를 Aggregation에 사용하려고 하면 다음과 같은 오류가 발생한다:
 
 ```json
