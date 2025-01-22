@@ -250,8 +250,6 @@ filter {
 
 ![image](https://github.com/user-attachments/assets/9967ac39-d6ae-46f8-8555-ee0efa7ef456)
 
-<br>
-
 ```
 filter{
   # order_date 필드를 날짜(date)와 시간(time)으로 분리
