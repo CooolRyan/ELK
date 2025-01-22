@@ -1029,3 +1029,10 @@ field에 대한 fielddata를 true로 설정해주는 과정을 통해 text 필�
 
 
 김리영 : logstash가 MySQL DB 데이터를 가져오기 위한 JDBC 드라이버, 데이터를 가져오는 주기 정의를 위한 schedule 필드, 원본 DB 데이터를 분석하여 필요한 부분만 가져오기 위한 filter 필드가  포함된 설정 파일을 구성해보며 ELK 스택 기반 모니터링 구축 방법을 이해할 수 있는 경험이었다. 또한 MySQL 시간과 logstash 시간 차이로 인해 updated_at을 기준으로 새 데이터를 추가했음에도 모든 데이터를 반복적으로 SELECT하는 문제를 logstash의 마지막 실행 정보를 저장하기 위한 추가적인 파일을 추가하여 해결함으로써 시간 동기화와 데이터 처리의 정확성이 설계에 중요함을 알게 되었다.
+
+
+
+## Reference
+
+
+[무신사의 검색어 분석을 통한 상품 정렬 개선](https://medium.com/musinsa-tech/%EA%B2%80%EC%83%89%EC%96%B4-%EB%B6%84%EC%84%9D%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%83%81%ED%92%88-%EC%A0%95%EB%A0%AC-%EA%B0%9C%EC%84%A0-b92ded2923c3)
