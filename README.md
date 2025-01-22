@@ -165,6 +165,7 @@ DB의 테이블 데이터를 수집, 변환, 필터링하고 Elasticsearch에 �
 
 <img src="https://github.com/user-attachments/assets/3c889787-f50e-4981-ba3a-3bf68abe4c28" width="300px" />
 
+<br>
 
 ### 3. Elasticsearch 활용
 
