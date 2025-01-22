@@ -444,6 +444,20 @@ POST /musinsa/_search
 
 
 ```
+      {
+        "_index" : "musinsa",
+        "_type" : "_doc",
+        "_id" : "3",
+        "_score" : 6.402894,
+        "_source" : {
+          "category" : [
+            "상의 ",
+            " 후드 티셔츠"
+          ],
+          "product_name" : "그래픽 베이직 후드",
+          "sub_category" : " 후드 티셔츠",
+      },
+      {
         "_index" : "musinsa",
         "_type" : "_doc",
         "_id" : "111",
@@ -453,32 +467,10 @@ POST /musinsa/_search
             "아우터 ",
             " 후드 집업"
           ],
-          "top_category" : "아우터 ",
-          "@timestamp" : "2025-01-21T16:56:20.123Z",
           "product_name" : "투웨이 후드 집업",
           "sub_category" : " 후드 집업",
         }
-      },
-      {
-        "_index" : "musinsa",
-        "_type" : "_doc",
-        "_id" : "2",
-        "_score" : 3.4028943,
-        "_source" : {
-          "category" : [
-            "상의 ",
-            " 후드 티셔츠"
-          ],
-          "top_category" : "상의 ",
-          "@timestamp" : "2025-01-21T16:56:20.122Z",
-          "product_name" : "미니멀 오버핏 후드",
-          "sub_category" : " 후드 티셔츠",
-        }
-      },
 ```
-
-
-그러나 문장에 존재하는 단어의 개수가 같은 경우에 후드 집업과 후드티의 score가 동일한 결과를 일부 확인할 수 있었다.
 
 
 이를 좀 더 개선하기 위해 상위 카테고리와 하위 카테고리 모두 가중치를 조정했다. 무신사의 카테고리 분류에서는 후드 집업은 아우터로, 후드 티셔츠는 상의로 분류하고 있는 점을 고려해 조정했다.
@@ -552,7 +544,7 @@ POST /musinsa/_search
 ```
 
 
-이를 통해 확실한 score 차이를 확인할 수 있었다.
+이를 통해서도 확실한 score 차이를 확인할 수 있었다.
 
 
 ```
