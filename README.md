@@ -849,7 +849,7 @@ GET /musinsa_with_nori/_search
 ```
 사용자 정의 사전을 포함한 nori 활용을 위해서는 위의 코드와 같이 user_dictionary를 포함해서 사용할 수 있다.
 
-
+<br>
 
 ## 트러블 슈팅
 
