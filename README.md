@@ -2,7 +2,7 @@
 
 <br>
 
-## 팀원 소개
+## 팀원 소개🙌
 
 
 |<img src="https://avatars.githubusercontent.com/u/193798531?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/74342019?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/153366521?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127267532?v=4" width="150" height="150"/>|
@@ -11,7 +11,7 @@
 
 <br>
 
-## 프로젝트 소개
+## 프로젝트 소개💻
 
 
 실제 ElasticSearch가 활용되는 분야를 고민하던 중  △로그 수집과 분석 △추천 알고리즘을 떠올릴 수 있었다. <br>
@@ -178,7 +178,7 @@ Elasticsearch를 활용해 빠른 검색과 분석을 수행하며, 특히 Kiban
 
 <br>
 
-## JDBC를 통한 Logstash와 Elastic Search 연동
+## JDBC를 통한 Logstash와 Elastic Search 연동🔌
 
 
 ```
@@ -204,7 +204,7 @@ input {
 
 <br>
 
-##  데이터 필터링 
+##  데이터 필터링📝
 
 
 ![image](https://github.com/user-attachments/assets/43487d17-d2c1-4afd-8050-f88eaf3e48a6)![image](https://github.com/user-attachments/assets/f80c44cd-c2c1-4f73-989b-c7c9abeffb95)
@@ -277,7 +277,7 @@ filter{
 
 <br>
 
-## Kibana를 통한 시각화
+## Kibana를 통한 시각화👓
 - 상품 구매 내역 데이터를 기반으로 **△일별 주문 건수 및 매출 △2025년 주문 현황 △2025년 일일 매출 △우수회원 △브랜드별 성별 인기도** 를 시각화하여 모니터링 대시보드 구축
 <p align="center">
     <img src="https://github.com/user-attachments/assets/5a1ff338-a490-4629-bc60-a852345b00ce" alt="Image" style="width:90%;">
@@ -310,7 +310,7 @@ filter{
 
 <br>
 
-## 무신사 검색 정렬 알고리즘 톺아보기
+## 무신사 검색 정렬 알고리즘 톺아보기👕
 
 
 - 무신사의 검색 알고리즘의 문제점 <br>
@@ -849,7 +849,7 @@ GET /musinsa_with_nori/_search
 
 <br>
 
-## 트러블 슈팅
+## 트러블 슈팅🧨
 
 
 ### Timezone 세팅 및 새로운 정보 update 문제
@@ -1025,7 +1025,7 @@ fielddata는 Elasticsearch에서 text 필드의 값을 메모리에 로드하여
 
 <br>
 
-## 회고
+## 회고✏
 
 
 - **석혜진** : ElasticSearch와 MySQL을 연결하기 위해 Logstash에 JDBC 설정을 구성하는 프로세스를 이해하게 되었다. 이후 Kibana를 활용하여 데이터를 시각화하는 과정에서 Logstash의 conf 파일에 필터를 구성하고, KQL 명령어를 익히는 실습을 수행했다. 추후에는 대용량 데이터를 삽입하고 효율적으로 전처리하는 과정을 실습해볼 계획이다.
